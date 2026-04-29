@@ -1,8 +1,8 @@
 import React from 'react';
-import FoodItems from '../components/Home/FoodItems';
-import GroceryItems from '../components/Home/GroceryItems';
-import RestaurantList from '../components/Home/RestaurantList';
-import CityList from '../components/Home/CityList';
+import FoodItems from '../components/home/FoodItems';
+import GroceryItems from '../components/home/GroceryItems';
+import RestaurantList from '../components/home/RestaurantList';
+import CityList from '../components/home/CityList';
 
 const HomePage = () => {
   return (
