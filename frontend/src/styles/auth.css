@@ -1,0 +1,248 @@
+/* Auth Pages - Compact */
+.auth-page-new {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card-new {
+  background: white;
+  padding: 30px 35px;
+  border-radius: 24px;
+  max-width: 420px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.close-auth-new {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #999;
+}
+
+.close-auth-new:hover {
+  color: #ff5200;
+}
+
+.auth-card-new h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #282c3f;
+}
+
+.auth-card-new p {
+  text-align: center;
+  color: #686b78;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.form-group-new {
+  margin-bottom: 16px;
+}
+
+.form-group-new label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #3e4152;
+}
+
+.input-icon-wrapper-new {
+  position: relative;
+}
+
+.input-icon-new {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 14px;
+}
+
+.input-icon-wrapper-new input {
+  width: 100%;
+  padding: 11px 12px 11px 38px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-icon-wrapper-new input:focus {
+  border-color: #ff5200;
+}
+
+.password-toggle-new {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+}
+
+.auth-button-new {
+  width: 100%;
+  background: #ff5200;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-button-new:hover {
+  background: #e64a00;
+}
+
+.auth-footer-new {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+.auth-footer-new button {
+  background: none;
+  border: none;
+  color: #ff5200;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Forgot Password Styles */
+.forgot-password-link {
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.forgot-password-link button {
+  background: none;
+  border: none;
+  color: #ff5200;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.forgot-password-link button:hover {
+  text-decoration: underline;
+}
+
+.forgot-card {
+  max-width: 450px;
+}
+
+.back-to-login {
+  background: none;
+  border: none;
+  color: #ff5200;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.back-to-login:hover {
+  text-decoration: underline;
+}
+
+.email-sent-message {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.success-icon {
+  width: 60px;
+  height: 60px;
+  background: #4caf50;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0 auto 20px;
+}
+
+.email-sent-message h3 {
+  font-size: 24px;
+  color: #282c3f;
+  margin-bottom: 10px;
+}
+
+.email-sent-message p {
+  color: #686b78;
+  margin-bottom: 5px;
+}
+
+.sent-email {
+  font-weight: 600;
+  color: #ff5200 !important;
+  margin-top: 5px;
+}
+
+.check-spam {
+  font-size: 12px;
+  color: #999 !important;
+  margin-top: 15px;
+}
+
+.back-to-login-btn {
+  background: #ff5200;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .forgot-card {
+    padding: 25px;
+  }
+  
+  .success-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+  
+  .email-sent-message h3 {
+    font-size: 20px;
+  }
+}
