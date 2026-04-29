@@ -10,8 +10,8 @@ import RestaurantDetail from './pages/RestaurantDetail';
 import CartPage from './pages/CartPage';
 import FoodItemsList from './pages/FoodItemsList';
 import SearchPage from './pages/SearchPage';
-import Header from './components/Layout/Header';
-import Footer from './components/Layout/Footer';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
