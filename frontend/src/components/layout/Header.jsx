@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaMapMarkerAlt, FaChevronDown, FaSearch, FaUser, FaShoppingCart, FaArrowRight } from 'react-icons/fa';
 import { GiFoodTruck, GiShoppingBag } from 'react-icons/gi';
 import { BiRestaurant } from 'react-icons/bi';
-import LocationModal from '../Common/LocationModal';
+import LocationModal from '../common/LocationModal';
 
 const Header = () => {
   const [modalOpen, setModalOpen] = useState(false);
